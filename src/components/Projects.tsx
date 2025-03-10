@@ -22,7 +22,7 @@ const Projects = () => {
       id: 2,
       title: 'Palocal',
       description: 'A local business directory and gift card platform.',
-      image: '/images/palocal.co.jpg',
+      image: '/images/Palocal.co.jpg',
       category: 'app',
       technologies: ['Html', 'Css', 'Javascript', 'Stripe', 'Firebase'],
       liveLink: 'https://palocal.co'
@@ -31,7 +31,7 @@ const Projects = () => {
       id: 3,
       title: 'Construction Website',
       description: 'Local construction company website',
-      image: '/images/hiraoka.png',
+      image: '/images/Hiraoka.png',
       category: 'web',
       technologies: ['Framer Motion'],
       liveLink: 'https://hiraokaconstruction.com/'
@@ -40,7 +40,7 @@ const Projects = () => {
       id: 4,
       title: 'Gen Z Japanese Translation',
       description: 'A website that translates standard Japanese to Gen Z Japanese as well as provides educational resources for learning Japanese.',
-      image: '/images/genzjp.png',
+      image: '/images/Genzjp.png',
       category: 'app',
       technologies: ['JavaScript', 'Html', 'CSS', 'Anthorpic API'],
       liveLink: 'https://genzjp.com/'
