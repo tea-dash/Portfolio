@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A modern personal portfolio website",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "portfolio",
+    "nextjs",
+    "react",
+    "tailwindcss"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "^10.4.16",
+    "framer-motion": "latest",
+    "next": "latest",
+    "postcss": "^8.4.31",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "latest",
+    "tailwindcss": "^3.3.0",
+    "typescript": "latest"
+  }
+}
