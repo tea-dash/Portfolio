@@ -49,13 +49,13 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="flex gap-6 mt-12"
         >
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
+          <a href="https://github.com/tea-dash" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             <FiGithub size={24} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
+          <a href="https://www.linkedin.com/in/tadashi-kumazawa-0a368421b" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             <FiLinkedin size={24} />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
+          <a href="https://x.com/tadashikumazawa" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors">
             <FiTwitter size={24} />
           </a>
         </motion.div>

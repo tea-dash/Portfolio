@@ -72,7 +72,7 @@ const Contact = () => {
               <h4 className="font-semibold text-lg mb-4 cinzel-medium">Follow Me</h4>
               <div className="flex gap-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/tea-dash" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-200 dark:bg-dark/80 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white transition-colors"
@@ -82,7 +82,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/tadashi-kumazawa-0a368421b" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-200 dark:bg-dark/80 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white transition-colors"
@@ -92,7 +92,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a 
-                  href="https://twitter.com" 
+                  href="https://x.com/tadashikumazawa" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-gray-200 dark:bg-dark/80 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white transition-colors"
