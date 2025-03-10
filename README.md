@@ -101,4 +101,4 @@ This project is open source and available under the [MIT License](LICENSE).
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
-- [React Icons](https://react-icons.github.io/react-icons/) 
+- [React Icons](https://react-icons.github.io/react-icons/) # Portfolio
