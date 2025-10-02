@@ -1,12 +1,12 @@
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
-import { Cinzel } from 'next/font/google';
-import SakuraEffect from '@/components/SakuraEffect';
+import { Cormorant_Garamond } from 'next/font/google';
 
-const cinzel = Cinzel({
+const cinzel = Cormorant_Garamond({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-cinzel',
+  weight: ['400']
 });
 
 export const metadata: Metadata = {
@@ -40,16 +40,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${cinzel.className} dark:bg-dark min-h-screen`}>
-        <SakuraEffect />
-        {/* Cherry blossom overlay for gradient effect */}
-        <div className="cherry-blossom-overlay"></div>
-        
-        {/* Main content */}
-        <div className="relative z-10">
-          {children}
-        </div>
+    <html lang="en">
+      <body className={`${cinzel.className} min-h-screen bg-white text-black`}>
+        {children}
       </body>
     </html>
   );
