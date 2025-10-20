@@ -72,13 +72,16 @@ const About = () => {
               </div>
             </div>
             
-            <a 
-              href="/resume.pdf" 
-              download 
-              className="btn btn-primary inline-flex items-center gap-2 cinzel-medium"
+            {/* Resume download temporarily disabled */}
+            <button 
+              type="button"
+              disabled
+              className="btn btn-primary inline-flex items-center gap-2 cinzel-medium opacity-60 cursor-not-allowed"
+              aria-disabled="true"
+              title="Resume temporarily unavailable"
             >
               Download CV <FiDownload />
-            </a>
+            </button>
           </motion.div>
         </div>
       </div>

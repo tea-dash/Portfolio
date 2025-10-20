@@ -40,8 +40,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${cinzel.className} min-h-screen bg-white text-black`}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${cinzel.className} min-h-screen bg-white text-black`} suppressHydrationWarning>
         {children}
       </body>
     </html>
