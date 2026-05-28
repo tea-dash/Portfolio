@@ -8,9 +8,7 @@ export default function Home() {
         </p>
         <a
           className="inline-flex items-center justify-center rounded border border-black px-4 py-2 text-sm hover:bg-black hover:text-white"
-          href="https://www.noveltools.app/blog"
-          rel="noopener noreferrer"
-          target="_blank"
+          href="/blog"
         >
           blog
         </a>
